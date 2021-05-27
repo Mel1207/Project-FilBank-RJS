@@ -1,7 +1,8 @@
 import styled from 'styled-components'
 
 export const ServicesContainer = styled.div`
-    height: 800px;
+    height: auto;
+    padding: 4em 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -40,6 +41,7 @@ export const ServicesCard = styled.div`
     background: #fff;
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
     align-items: center;
     border-radius: 10px;
     min-height: 360px;
