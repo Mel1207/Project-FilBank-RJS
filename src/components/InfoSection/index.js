@@ -1,5 +1,4 @@
 import React from 'react'
-import imgCar from '../../images/svg-1.svg'
 import { Button } from '../ButtonElement'
 
 import { 
@@ -22,7 +21,7 @@ const InfoSection = ({
     id, 
     imgStart, 
     topLine, 
-    lightText, 
+    lightText,
     darkText, 
     headline, 
     buttonLabel, 
@@ -30,7 +29,8 @@ const InfoSection = ({
     description,
     primary,
     dark,
-    dark2
+    dark2,
+    img
 }) => {
     return (
         <>
@@ -57,7 +57,7 @@ const InfoSection = ({
                         </Column1>
                         <Column2>
                             <ImgWrap>
-                                <Img src={imgCar} alt={alt}/>
+                                <Img src={img} alt={alt}/>
                             </ImgWrap>
                         </Column2>
                     </InfoRow>
