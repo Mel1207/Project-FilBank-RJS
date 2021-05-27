@@ -38,8 +38,8 @@ export const homeObjTwo = {
 
 export const homeObjThree = {
     id: 'services',
-    lightBg: false,
-    lightText: true,
+    lightBg: true,
+    lightText: false,
     lightTextDesc: true,
     topLine: 'Investment Growth',
     headline: 'Can be use as Personal Invesment',
@@ -50,5 +50,5 @@ export const homeObjThree = {
     alt: 'Cars',
     dark: true,
     primary: true,
-    darkText: false
+    darkText: true
 };
