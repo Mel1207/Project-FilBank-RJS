@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-<!-- LINK LIVE PROJECT -->
+LINK LIVE PROJECT
 https://fillbank-rjs.netlify.app/
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
