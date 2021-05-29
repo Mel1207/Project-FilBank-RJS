@@ -1,4 +1,5 @@
 import React from 'react'
+import { FaFacebook, FaInstagram, FaLinkedinIn } from 'react-icons/fa'
 import { 
     FooterContainer,
     FooterWrap,
@@ -6,7 +7,13 @@ import {
     FooterLinksWrapper,
     FooterLinkItems,
     FooterLinkTitle,
-    FooterLink
+    FooterLink,
+    SocialMedia,
+    SocialMediaWrap,
+    SocialLogo,
+    WebsiteRights,
+    SocialIcons,
+    SocialIconLink
 } from './FooterElements'
 
 const Footer = () => {
@@ -48,13 +55,24 @@ const Footer = () => {
                             <FooterLink to="/">Instagram</FooterLink>
                         </FooterLinkItems>
                     </FooterLinksWrapper>
-                    <SocialMedia>
-                        <SocialMediaWrap>
-                            <SocialLogo to="/">FillBank</SocialLogo>
-                            <WebsiteRights>FillBank © 2020</WebsiteRights>
-                        </SocialMediaWrap>
-                    </SocialMedia>
                 </FooterLinksContainer>
+                <SocialMedia>
+                    <SocialLogo to="/">FillBank</SocialLogo>
+                    <WebsiteRights>FillBank © {new Date().getFullYear()} All rights reserved.</WebsiteRights>
+                    <SocialMediaWrap>
+                        <SocialIcons>
+                        <SocialIconLink href="/" target="_blank" aria-label="Linkedin">
+                                <FaLinkedinIn />
+                            </SocialIconLink>
+                            <SocialIconLink href="/" target="_blank" aria-label="Facebook">
+                                <FaFacebook />
+                            </SocialIconLink>
+                            <SocialIconLink href="/" target="_blank" aria-label="Instagram">
+                                <FaInstagram />
+                            </SocialIconLink>
+                        </SocialIcons>
+                    </SocialMediaWrap>
+                </SocialMedia>
             </FooterWrap>
         </FooterContainer>
     )

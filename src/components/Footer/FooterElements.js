@@ -65,3 +65,50 @@ export const FooterLink = styled(Link)`
         color: #01bf71;
     }
 `
+
+export const SocialMedia = styled.section`
+    max-width: 1000px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+`
+
+export const SocialMediaWrap = styled.div`
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    margin: 20px auto;
+
+    @media screen and (max-width: 820px) {
+        flex-direction: column;
+    }
+`
+
+export const SocialLogo = styled(Link)`
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 1.5rem;
+    width: 100%;
+    margin: 20px 0 10px 0;
+    font-weight: bold;
+`
+
+export const WebsiteRights = styled.small`
+    color: #fff;
+    /* margin-bottom: 16px; */
+`
+
+export const SocialIcons = styled.div`
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 140px;
+`
+
+export const SocialIconLink = styled.a`
+    color: #fff;
+    font-size: 24px;
+`
