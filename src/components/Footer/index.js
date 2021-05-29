@@ -14,7 +14,8 @@ import {
     SocialLogo,
     WebsiteRights,
     SocialIcons,
-    SocialIconLink
+    SocialIconLink,
+    FooterP
 } from './FooterElements'
 
 const Footer = () => {
@@ -29,30 +30,25 @@ const Footer = () => {
                 <FooterLinksContainer>
                     <FooterLinksWrapper>
                         <FooterLinkItems>
-                            <FooterLinkTitle>About us </FooterLinkTitle>
-                            <FooterLink to="/signin">How it Works</FooterLink>
-                            <FooterLink to="/signin">Testimonials</FooterLink>
-                            <FooterLink to="/signin">Careers</FooterLink>
-                            <FooterLink to="/signin">Investors</FooterLink>
-                            <FooterLink to="/signin">Terms of service</FooterLink>
+                            <FooterLinkTitle>Who We Are</FooterLinkTitle>
+                            <FooterP>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure cupiditate rem nam.</FooterP>
                         </FooterLinkItems>
                         <FooterLinkItems>
                             <FooterLinkTitle>About us </FooterLinkTitle>
-                            <FooterLink to="/signin">How it Works</FooterLink>
-                            <FooterLink to="/signin">Testimonials</FooterLink>
-                            <FooterLink to="/signin">Careers</FooterLink>
-                            <FooterLink to="/signin">Investors</FooterLink>
-                            <FooterLink to="/signin">Terms of service</FooterLink>
+                            <FooterLink to="/">How it Works</FooterLink>
+                            <FooterLink to="/">Testimonials</FooterLink>
+                            <FooterLink to="/">Careers</FooterLink>
+                            <FooterLink to="/">Investors</FooterLink>
+                            <FooterLink to="/">Terms of service</FooterLink>
                         </FooterLinkItems>
                     </FooterLinksWrapper>
                     <FooterLinksWrapper>
                         <FooterLinkItems>
-                            <FooterLinkTitle>About us </FooterLinkTitle>
-                            <FooterLink to="/signin">How it Works</FooterLink>
-                            <FooterLink to="/signin">Testimonials</FooterLink>
-                            <FooterLink to="/signin">Careers</FooterLink>
-                            <FooterLink to="/signin">Investors</FooterLink>
-                            <FooterLink to="/signin">Terms of service</FooterLink>
+                            <FooterLinkTitle>Navigation </FooterLinkTitle>
+                            <FooterLink to="/">Home</FooterLink>
+                            <FooterLink to="/">About</FooterLink>
+                            <FooterLink to="/">Services</FooterLink>
+                            <FooterLink to="/">Signup</FooterLink>
                         </FooterLinkItems>
                         <FooterLinkItems>
                             <FooterLinkTitle>Social Media </FooterLinkTitle>

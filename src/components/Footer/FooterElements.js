@@ -17,7 +17,7 @@ export const FooterWrap = styled.div`
 
 export const FooterLinksContainer = styled.div`
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 
     @media screen and (max-width: 820px) {
         padding-top: 32px;
@@ -30,6 +30,11 @@ export const FooterLinksWrapper = styled.div`
     @media screen and (max-width: 820px) {
         flex-direction: column;
     }
+`
+
+export const FooterP = styled.p`
+    color: #fff;
+    opacity: 0.8;
 `
 
 export const FooterLinkItems = styled.div`
@@ -56,13 +61,15 @@ export const FooterLinkTitle = styled.h1`
 
 export const FooterLink = styled(Link)`
     color: #fff;
+    opacity: 0.8;
     text-decoration: none;
     margin-bottom: 0.5rem;
     font-size: 14px;
     transition: 0.3s ease-in-out;
 
     &:hover {
-        color: #01bf71;
+        color: #0db9a1;
+        opacity: 1;
     }
 `
 
