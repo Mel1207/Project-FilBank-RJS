@@ -42,8 +42,8 @@ export const FooterLinkItems = styled.div`
     flex-direction: column;
     align-items: flex-start;
     margin: 16px;
+    min-width: 200px;
     text-align: left;
-    width: 160px;
     box-sizing: border-box;
     color: #fff;
 
@@ -55,7 +55,7 @@ export const FooterLinkItems = styled.div`
 `
 
 export const FooterLinkTitle = styled.h1`
-    font-size: 14px;
+    font-size: 18px;
     margin-bottom: 16px;
 `
 
