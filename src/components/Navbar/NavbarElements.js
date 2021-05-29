@@ -82,7 +82,7 @@ export const NavLinks = styled(LinkS)`
 
 
     &.active {
-        border-bottom: 3px solid #01bf71;
+        border-bottom: 3px solid #0db9a1;
     }
 `
 

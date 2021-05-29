@@ -37,18 +37,18 @@ export const homeObjTwo = {
 };
 
 export const homeObjThree = {
-    id: 'services',
+    id: 'signup',
     lightBg: true,
     lightText: false,
     lightTextDesc: true,
-    topLine: 'Investment Growth',
-    headline: 'Can be use as Personal Invesment',
+    topLine: 'Account Signin',
+    headline: 'Create account and start your investment',
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae quo nam eveniet amet ex suscipit nisi, assumenda hic nihil accusantium?',
     buttonLabel: 'Start Now',
     imgStart: false,
     img: img3,
     alt: 'Cars',
-    dark: true,
-    primary: true,
+    dark: false,
+    primary: false,
     darkText: true
 };
